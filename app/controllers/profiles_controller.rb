@@ -23,8 +23,10 @@ class ProfilesController < ApplicationController
   # GET /profiles/1/edit
   def edit
     if @profile.skills.empty?
+      5.times do
         @profile.skills.build
         @profile.jobs.build
+      end
     end
   end
 
