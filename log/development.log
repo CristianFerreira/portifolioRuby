@@ -5610,3 +5610,12 @@ Processing by ProfilesController#index as HTML
 Completed 200 OK in 202ms (Views: 171.8ms | ActiveRecord: 1.7ms)
 
 
+Started GET "/profiles/new" for 127.0.0.1 at 2016-09-27 14:29:42 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered profiles/_form.html.erb (16.7ms)
+  Rendered profiles/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 209ms (Views: 147.0ms | ActiveRecord: 2.0ms)
+
+
